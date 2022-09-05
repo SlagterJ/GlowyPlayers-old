@@ -1,4 +1,4 @@
-package nl.averythebird.glowyplayers;
+package nl.averythebird.glowyplayers.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

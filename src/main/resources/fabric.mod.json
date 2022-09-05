@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "glowyplayers",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Glowy Players",
+  "description": "Makes players glow so they can see each other better on servers.",
   "authors": [
-    "Me!"
+    "Avery"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "nl.averythebird.glowyplayers.GlowyPlayers"
+      "nl.averythebird.glowyplayers.Main"
     ]
   },
   "mixins": [
@@ -31,8 +31,5 @@
     "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
