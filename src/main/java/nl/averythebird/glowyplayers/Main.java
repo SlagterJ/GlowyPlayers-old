@@ -26,7 +26,8 @@ public class Main implements ModInitializer {
   }
 
   private void registerEvents() {
-    ServerEntityEvents.ENTITY_LOAD.register((Entity entity, ServerWorld world) -> WorldJoinEvent.onSpawn(world, entity));
+    ServerEntityEvents.ENTITY_LOAD.register(
+      (Entity entity, ServerWorld world) -> WorldJoinEvent.onSpawn(world, entity));
     logger.info("Registered events.");
   }
 }
