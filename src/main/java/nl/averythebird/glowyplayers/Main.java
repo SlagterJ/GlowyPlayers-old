@@ -10,16 +10,16 @@ import org.slf4j.Logger;
 import static nl.averythebird.glowyplayers.util.Reference.getLogger;
 
 public class Main implements ModInitializer {
-	private static final Logger logger = getLogger("main");
+  private static final Logger logger = getLogger("main");
 
-	@Override
-	public void onInitialize() {
-		logger.info("GlowyPlayers started up!");
-		registerEvents();
-	}
+  @Override
+  public void onInitialize() {
+    logger.info("GlowyPlayers started up!");
+    registerEvents();
+  }
 
-	private void registerEvents() {
-		ServerEntityEvents.ENTITY_LOAD.register((Entity entity, ServerWorld world) -> WorldJoinEvent.onSpawn(world, entity));
-		logger.info("Registered events.");
-	}
+  private void registerEvents() {
+    ServerEntityEvents.ENTITY_LOAD.register((Entity entity, ServerWorld world) -> WorldJoinEvent.onSpawn(world, entity));
+    logger.info("Registered events.");
+  }
 }
