@@ -1,3 +1,10 @@
+/*
+ * Glowy Players
+ *
+ * (C) Jordy Slagter
+ * MIT LICENSE
+ */
+
 package nl.averythebird.glowyplayers.util;
 
 import org.slf4j.Logger;

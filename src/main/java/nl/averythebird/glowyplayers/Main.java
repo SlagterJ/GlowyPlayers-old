@@ -1,3 +1,10 @@
+/*
+ * Glowy Players
+ *
+ * (C) Jordy Slagter
+ * MIT LICENSE
+ */
+
 package nl.averythebird.glowyplayers;
 
 import net.fabricmc.api.ModInitializer;
